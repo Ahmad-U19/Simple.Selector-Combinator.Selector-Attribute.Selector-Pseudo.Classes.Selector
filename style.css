@@ -1,0 +1,25 @@
+#box{
+    border: 1px solid black;
+    width: 300px;
+    height: auto;
+    border-radius: 3px;
+}
+#box p{
+    color: green;
+}
+*{
+    margin-left: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#box p span{
+    color: black;
+    background-color: aqua;
+}
+#box2:hover{
+    width: 200px;
+    height: 100px;
+}
+div[id="box2"]{
+    border: 2px solid blue;
+}
